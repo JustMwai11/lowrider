@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafty Blog</title>
+    <link rel="stylesheet" href="backimg.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-image: url( isp.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+        nav{
+            height: 70px;
+            border-bottom:none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: sticky;
+            top: 0%;
+            background-color: rgba(4, 4, 5, 0.5);
+            
+        }
+       
+        .brand{
+            display: flex;
+        }
+        .brand a{
+            color:black;
+            text-decoration: none;
+            font-size: 28px;
+            color: greenyellow;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            align-items: center;  
+        }
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .register{
+            width: 70px;
+            height: 40px;
+            background-color: rgb(242, 112, 37);
+            border-radius: 12px;
+            color: black;
+            border: none;
+        }
+        .signin{
+            width: 70px;
+            height: 40px;
+            border-radius: 12px;
+            border: 1px solid black;
+            background-color: rgb(244, 187, 107);
+        }
+        .parent{
+            width:70%;
+            height: fit-content;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        
+        .child{
+            width: 49%;
+            height: 350px;
+            font-family: cursive;
+            background-color: rgba(4, 4, 5, 0.5);
+            color: white;
+            flex-direction: column;
+            
+        }
+        .p1{
+            width: 49%;
+            height: 350px;
+            
+            
+        }
+        h1{
+            align-items: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            
+        }
+        button:hover{
+            transition: all 0.5s ease-out;
+            border-radius: 50%;
+            opacity: 0.8;
+
+        }
+        .center{
+            align-items: top;
+            width: 57.5%;
+            height: auto;
+        }
+        #one:hover{
+            background-color: rgb(221, 250, 240);
+            color: black;
+            transition: all 0.5 ease-in-out;
+            border-radius: 15%;
+            opacity: 0.8;
+        }
+        #two:hover{
+            background-color: rgb(197, 234, 222);
+            color: black;
+            transition: all 0.5 ease-in-out;
+            border-radius: 10%;
+            opacity: 0.8;
+        }
+        #three:hover{
+            border-radius: 15%;
+            background-color: rgb(185, 218, 207);
+            color: black;
+            transition: all 0.5 ease-in-out;
+            opacity: 0.8;
+        }
+        #four:hover{
+            border-radius: 15%;
+            opacity: 0.8;
+            background-color: #b5f1e1;
+            color: black;
+            transition: all 0.5 ease-in-out;
+        }
+        #dte{
+            font-style: oblique;
+        }
+        #tone{
+            text-decoration: underline;
+            font-size: 18px;
+        }
+        p{
+            text-align: left right;
+            text-decoration: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <nav>
+        
+        <div class="brand">
+            <img src="lr.jpg" width="40px" height="40px" style="border-radius: 50%;" alt="">
+            <a href="">LowRider</a>
+        </div>
+        <ul>
+            <li id="one">
+                <a href="blog.html">Home</a>
+            </li>
+            <li id="two">
+                <a href="service.html">Services</a>
+            </li>
+            <li id="three">
+                <a href="about.html">About</a>
+            </li>
+            <li id="four">
+                <a href="faq.html">FAQ</a>
+            </li>
+            <button class="register">
+                <a href="">Sign Up</a>
+            </button>
+            <button class="signin">
+                <a href="signin.html">Log In</a>
+            </button>
+        </ul>
+    
+    </nav>
+    <div class="center">
+        <h1><img src="lr2.jpg" alt=""></h1>
+    </div>
+    <div class="parent">
+        <div class="child"><b>Welcome to our website where wwe detail your car and get it back to its new self.transform your car from drab to fab!Experience the difference professional detailing can make. Book your appointment today and get 10% off your first service</b></div>
+        <div class="p1"><img src="2h.jpg" alt="" width="100%" height="100%"></div>
+        <div class="p1"><img src="bgi.jpg" alt="" width="100%" height="100%"></div>
+        <div class="child">
+            <ul id="dte">
+               <li id="tone"><b>Services:</b></li>
+               <li id="tone"> Interior Detail:</li>
+               <p>Deep cleaning and vacuuming, upholstery stain removal, leather conditioning, dashboard shine, odor removal, air freshener.</p>
+               <li id="tone">Exterior Detail:</li>
+               <p>Hand wash and wax, buffing and polishing, headlight restoration, window cleaning, wheel cleaning and tire dressing</p>
+            </ul>
+        </div>
+        <div class="child">
+            <ul>
+                <li id="tone">Full Detail:</li>
+                <p>Combine the best of both worlds! Interior and exterior detailing for a complete overhaul.</p>
+                <li id="tone"><b>Why Choose Us:</b></li>
+                <p>We're passionate car enthusiasts with over 10 years of experience. We use only premium products and proven techniques to deliver a showroom-quality finish. We're also eco-friendly and use water-saving methods.</p>
+            </ul>
+        </div>
+        <div class="p1"><img src="wpp.jpg" alt="" width="100%" height="100%"></div>
+        <div class="p1"><img src="crfty.jpg" alt="" width="100%" height="100%"></div>
+        <div class="child">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum animi rerum earum optio cum placeat voluptatibus quam nesciunt nam atque et, illo adipisci veritatis quisquam perspiciatis delectus nisi, veniam reiciendis?</div>
+        <div class="child">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum animi rerum earum optio cum placeat voluptatibus quam nesciunt nam atque et, illo adipisci veritatis quisquam perspiciatis delectus nisi, veniam reiciendis?</div>
+        <div class="p1"><img src="crfty.jpg" alt="" width="100%" height="100%"></div>
+        <div class="p1"><img src="crfty.jpg" alt="" width="100%" height="100%"></div>
+        <div class="child">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum animi rerum earum optio cum placeat voluptatibus quam nesciunt nam atque et, illo adipisci veritatis quisquam perspiciatis delectus nisi, veniam reiciendis?</div>
+        <div class="child">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum animi rerum earum optio cum placeat voluptatibus quam nesciunt nam atque et, illo adipisci veritatis quisquam perspiciatis delectus nisi, veniam reiciendis?</div>
+        <div class="p1"><img src="crfty.jpg" alt="" width="100%" height="100%"></div>
+       
+    </div>
+</body>
+</html>
